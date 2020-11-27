@@ -1,0 +1,33 @@
+[2020-11-26T14:22:58.428] [FATAL] api - Error al leer el archivo: Error: ENOENT: no such file or directory, open 'variables/segundsos.txt'
+    at Object.openSync (fs.js:466:3)
+    at Object.readFileSync (fs.js:369:35)
+    at Object.<anonymous> (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\app.js:37:19)
+    at Module._compile (internal/modules/cjs/loader.js:1085:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:791:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2020-11-26T14:23:31.661] [FATAL] api - No hay nada dentro del archivo
+[2020-11-26T16:11:56.034] [FATAL] api - No hay nada dentro del archivo
+[2020-11-27T12:10:37.813] [FATAL] api - Error en el POST para actualizar el segundo: ReferenceError: i is not defined
+    at C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\app.js:79:17
+    at Layer.handle [as handle_request] (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\node_modules\express\lib\router\index.js:275:10)
+[2020-11-27T12:33:12.396] [ERROR] api - ¡En el archivo de configuración no hay números!
+[2020-11-27T12:35:47.279] [ERROR] api - ¡En el archivo de configuración no hay números!
+[2020-11-27T12:55:21.817] [FATAL] api - No ha sido posible bajar el segundo: ReferenceError: sescactual is not defined
+    at Timeout.editarsec [as _onTimeout] (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\app.js:96:9)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[2020-11-27T12:57:50.777] [FATAL] api - No ha sido posible bajar el segundo: ReferenceError: xhr is not defined
+    at Timeout.editarsec [as _onTimeout] (C:\Users\mario\Documents\prueba_concatel\Prueba_API_EX2\app.js:102:9)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
