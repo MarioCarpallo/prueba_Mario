@@ -25,7 +25,7 @@ const port = 3000;
 
 app.use(cors());
 
-//Levantamos el servidor con el puerto que queremos.
+// Levantamos el servidor con el puerto que queremos y lo metemos en un try por si hay algún error.
 try {
     app.listen(port, () => console.log(`API inicializada en el puerto ${port}!`));
 } catch (err) {
