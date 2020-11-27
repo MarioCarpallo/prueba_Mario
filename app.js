@@ -26,8 +26,11 @@ const port = 3000;
 app.use(cors());
 
 //Levantamos el servidor con el puerto que queremos.
-app.listen(port, () => console.log(`API inicializada en el puerto ${port}!`));
-
+try {
+    app.listen(port, () => console.log(`API inicializada en el puerto ${port}!`));
+} catch (err) {
+    logger.fatal(`Error al levantar el servidor: ${err.stack}`);
+}
 // Variable la cual asignaremos los segundos al leer del archivo de configuración.
 // Se inicia a 0 automaticamente para prevenir fallos a la hora de conseguir los segundos del archivo. Si hay algun error, automaticamente la API mostrará un 0.
 var segundos = 0;
